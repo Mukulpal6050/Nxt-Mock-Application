@@ -1,0 +1,74 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  height: 100vh;
+}
+
+.loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(64, 63, 63, 0.25);
+  flex-direction: column;
+  padding: 30px 20px;
+}
+
+.logo {
+  height: auto;
+  width: 100px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.label {
+  font-family: Roboto;
+  font-size: 9px;
+  font-weight: bold;
+  color: #475569;
+  margin-bottom: 5px;
+}
+
+.input {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  color: #64748b;
+  width: 200px;
+  border: solid 1px #94a3b8;
+  border-radius: 2px;
+}
+.loginFormConatiner {
+  margin-top: 17px;
+}
+
+.showPasswordText {
+  font-family: Roboto;
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.loginButton {
+  background-color: #3b82f6;
+  border: none;
+  padding: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
